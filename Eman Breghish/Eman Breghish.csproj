@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Applicationstate1.aspx" />
+    <Content Include="Applicationstate2.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,9 +79,26 @@
   <ItemGroup>
     <Content Include="page1.aspx" />
     <Content Include="page2.aspx" />
+    <Content Include="Session state1.aspx" />
+    <Content Include="Session state2.aspx" />
+    <Content Include="Viewstate1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applicationstate1.aspx.cs">
+      <DependentUpon>Applicationstate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicationstate1.aspx.designer.cs">
+      <DependentUpon>Applicationstate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicationstate2.aspx.cs">
+      <DependentUpon>Applicationstate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Applicationstate2.aspx.designer.cs">
+      <DependentUpon>Applicationstate2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="page1.aspx.cs">
       <DependentUpon>page1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,6 +114,27 @@
       <DependentUpon>page2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Session state1.aspx.cs">
+      <DependentUpon>Session state1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session state1.aspx.designer.cs">
+      <DependentUpon>Session state1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session state2.aspx.cs">
+      <DependentUpon>Session state2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session state2.aspx.designer.cs">
+      <DependentUpon>Session state2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewstate1.aspx.cs">
+      <DependentUpon>Viewstate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewstate1.aspx.designer.cs">
+      <DependentUpon>Viewstate1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

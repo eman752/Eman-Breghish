@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="TextBox1" runat="server" Width="200px" Height="20px"></asp:TextBox>
-        <asp:TextBox ID="TextBox2" runat="server" style="margin-left: 102px" Width="200px" Height="20px"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" style="margin-left: 102px" Width="200px" Height="20px" ></asp:TextBox>
     
         <br />
         <br />
