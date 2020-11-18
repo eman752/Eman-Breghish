@@ -23,7 +23,7 @@ namespace Eman_Breghish
             //       value  وعبيت ال  key  هيك أخدت ال  
             // هون رح تتخزن البيانات داخل جهاز العميل 
             Response.Cookies.Add(cookie); // التخزين 
-            Response.Redirect("~/Cookie state 2.aspx");
+            Response.Redirect("~/Cookiestate2.aspx");
             // هون عملت تحويل مباشر للصفحة التانية
 
         }

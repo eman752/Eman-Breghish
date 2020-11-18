@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cookie state 2.aspx.cs" Inherits="Eman_Breghish.Cookie_state_2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cookiestate2.aspx.cs" Inherits="Eman_Breghish.Cookie_state_2" %>
 
 <!DOCTYPE html>
 
