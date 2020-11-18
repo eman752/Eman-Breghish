@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="Applicationstate1.aspx" />
     <Content Include="Applicationstate2.aspx" />
+    <Content Include="Cookie state 1.aspx" />
+    <Content Include="Cookie state 2.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -98,6 +100,20 @@
     </Compile>
     <Compile Include="Applicationstate2.aspx.designer.cs">
       <DependentUpon>Applicationstate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie state 1.aspx.cs">
+      <DependentUpon>Cookie state 1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie state 1.aspx.designer.cs">
+      <DependentUpon>Cookie state 1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie state 2.aspx.cs">
+      <DependentUpon>Cookie state 2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookie state 2.aspx.designer.cs">
+      <DependentUpon>Cookie state 2.aspx</DependentUpon>
     </Compile>
     <Compile Include="page1.aspx.cs">
       <DependentUpon>page1.aspx</DependentUpon>
